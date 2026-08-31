@@ -36,9 +36,16 @@ body>*{position:relative;z-index:1}
 .hb{display:block;width:24px;height:2px;background:#d1d5db;transition:all .3s ease}
 .wabtn{width:100%;display:flex;align-items:center;justify-content:center;gap:.5rem;padding:.75rem 1.25rem;border-radius:.75rem;background:rgba(34,197,94,.1);border:1px solid rgba(34,197,94,.3);color:#22C55E;font-weight:600;font-size:.875rem;transition:all .3s ease}
 .wabtn:hover{background:#22C55E;color:#0A0E17;box-shadow:0 0 25px rgba(34,197,94,.4)}
-</style></head>
+</style>
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XXXXXXXXXX');
+</script>
+</head>
 <body class='antialiased'>
-<!-- HEADER -->
 <header id='hdr' class='fixed top-0 left-0 right-0 z-50'>
 <div class='max-w-7xl mx-auto px-4 sm:px-6 lg:px-8'>
 <div class='flex items-center justify-between h-16 md:h-20'>
@@ -61,7 +68,6 @@ body>*{position:relative;z-index:1}
 <a href='#contacto' class='ml px-3 py-2 rounded-lg text-gray-300 hover:text-green-400 hover:bg-white/5 text-sm font-medium transition-all'>Contacto</a>
 <a href='https://wa.me/595984785878' target='_blank' rel='noopener' class='mt-2 mx-3 flex items-center justify-center gap-2 px-4 py-2.5 rounded-xl bg-green-500/10 border border-green-500/40 text-green-400 text-sm font-semibold'>Chat WhatsApp</a></div></div></div></header>
 
-<!-- HERO -->
 <section id='hero' class='hero-bg relative min-h-screen flex items-center justify-center overflow-hidden'>
 <div id='hc' class='relative z-10 max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 text-center pt-28 pb-20'>
 <div class='inline-flex items-center gap-2 px-4 py-2 rounded-full glass border border-green-500/30 mb-8 reveal'>
@@ -83,7 +89,40 @@ body>*{position:relative;z-index:1}
 <span class='text-gray-400 text-xs tracking-widest uppercase'>Scroll</span>
 <svg class='w-5 h-5 text-green-400 animate-bounce' fill='none' stroke='currentColor' stroke-width='2' viewBox='0 0 24 24'><path stroke-linecap='round' stroke-linejoin='round' d='M19 9l-7 7-7-7'/></svg></div></section>
 
-<!-- POR QUÉ ELEGIRNOS -->
+<section id='quienes-somos' class='py-24 px-4 sm:px-6 lg:px-8'>
+<div class='max-w-7xl mx-auto'>
+<div class='text-center mb-16 reveal'><span class='sline mb-4 block mx-auto'></span>
+<h2 class='font-black text-3xl sm:text-4xl md:text-5xl mb-4'><span class='grad-text'>Quiénes Somos</span></h2>
+<p class='text-gray-400 max-w-xl mx-auto'>Más de 20 años protegiendo y embelleciendo vehículos en Paraguay.</p></div>
+<div class='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6'>
+
+<div class='scard glass rounded-2xl p-7 border border-white/8 reveal rd1'>
+<div class='w-14 h-14 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5'>
+<svg class='w-7 h-7' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z'/></svg></div>
+<h3 class='text-white font-bold text-lg mb-2'>Historia</h3>
+<p class='text-gray-400 text-sm leading-relaxed'>Nacimos hace más de 20 años, ofreciendo protección y estética automotriz de calidad, llevando el servicio hasta la puerta de nuestros clientes.</p></div>
+
+<div class='scard glass rounded-2xl p-7 border border-white/8 reveal rd2'>
+<div class='w-14 h-14 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5'>
+<svg class='w-7 h-7' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M13 10V3L4 14h7v7l9-11h-7z'/></svg></div>
+<h3 class='text-white font-bold text-lg mb-2'>Misión</h3>
+<p class='text-gray-400 text-sm leading-relaxed'>Brindar soluciones de protección y estética automotriz de la más alta calidad, con atención personalizada a domicilio.</p>
+</div>
+
+<div class='scard glass rounded-2xl p-7 border border-white/8 reveal rd3'>
+<div class='w-14 h-14 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5'>
+<svg class='w-7 h-7' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M15 12a3 3 0 11-6 0 3 3 0 016 0z'/><path d='M2.458 12C3.732 7.943 7.523 5 12 5c4.478 0 8.268 2.943 9.542 7-1.274 4.057-5.064 7-9.542 7-4.477 0-8.268-2.943-9.542-7z'/></svg></div>
+<h3 class='text-white font-bold text-lg mb-2'>Visión</h3>
+<p class='text-gray-400 text-sm leading-relaxed'>Ser la empresa referente en protección y estética automotriz a domicilio en Paraguay, reconocida por su calidad y confianza.</p></div>
+
+<div class='scard glass rounded-2xl p-7 border border-white/8 reveal rd4'>
+<div class='w-14 h-14 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5'>
+<svg class='w-7 h-7' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M12 15a3 3 0 100-6 3 3 0 000 6z'/><path d='M19.4 15a1.65 1.65 0 00.33 1.82l.06.06a2 2 0 11-2.83 2.83l-.06-.06a1.65 1.65 0 00-1.82-.33 1.65 1.65 0 00-1 1.51V21a2 2 0 11-4 0v-.09a1.65 1.65 0 00-1-1.51 1.65 1.65 0 00-1.82.33l-.06.06a2 2 0 11-2.83-2.83l.06-.06a1.65 1.65 0 00.33-1.82 1.65 1.65 0 00-1.51-1H3a2 2 0 110-4h.09a1.65 1.65 0 001.51-1 1.65 1.65 0 00-.33-1.82l-.06-.06a2 2 0 112.83-2.83l.06.06a1.65 1.65 0 001.82.33H9a1.65 1.65 0 001-1.51V3a2 2 0 114 0v.09a1.65 1.65 0 001 1.51 1.65 1.65 0 001.82-.33l.06-.06a2 2 0 112.83 2.83l-.06.06a1.65 1.65 0 00-.33 1.82V9a1.65 1.65 0 001.51 1H21a2 2 0 110 4h-.09a1.65 1.65 0 00-1.51 1z'/></svg></div>
+<h3 class='text-white font-bold text-lg mb-2'>Valores</h3>
+<p class='text-gray-400 text-sm leading-relaxed'>Responsabilidad, honestidad, compromiso con la calidad y respeto por cada cliente y su vehículo.</p></div>
+
+</div></div></section>
+
 <section id='elegirnos' class='py-24 px-4 sm:px-6 lg:px-8'>
 <div class='max-w-7xl mx-auto'>
 <div class='text-center mb-16 reveal'><span class='sline mb-4 block mx-auto'></span>
@@ -106,7 +145,6 @@ body>*{position:relative;z-index:1}
 <div class='w-14 h-14 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center mb-5'><svg class='w-7 h-7' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M11.049 2.927c.3-.921 1.603-.921 1.902 0l1.519 4.674a1 1 0 00.95.69h4.915c.969 0 1.371 1.24.588 1.81l-3.976 2.888a1 1 0 00-.363 1.118l1.518 4.674c.3.922-.755 1.688-1.538 1.118l-3.976-2.888a1 1 0 00-1.176 0l-3.976 2.888c-.783.57-1.838-.197-1.538-1.118l1.518-4.674a1 1 0 00-.363-1.118l-3.976-2.888c-.784-.57-.38-1.81.588-1.81h4.914a1 1 0 00.951-.69l1.519-4.674z'/></svg></div>
 <h3 class='text-white font-bold text-lg mb-2'>Marcas 100% Originales</h3>
 <p class='text-gray-400 text-sm leading-relaxed'>Llumar, Positron, Hikvision, Pioneer y otros.</p></div></div></div></section>
-<!-- CATÁLOGO -->
 <section id='servicios' class='py-24 px-4 sm:px-6 lg:px-8 relative'>
 <div class='absolute top-0 left-1/2 -translate-x-1/2 w-px h-24 bg-gradient-to-b from-transparent via-green-500/30 to-transparent'></div>
 <div class='max-w-7xl mx-auto'>
@@ -115,7 +153,6 @@ body>*{position:relative;z-index:1}
 <p class='text-gray-400 max-w-xl mx-auto'>Tecnología y calidad premium instalada directamente en tu vehículo.</p></div>
 <div class='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6'>
 
-<!-- CARD 1: Polarizado -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd1'>
 <div class='h-1.5 bg-gradient-to-r from-green-500 to-emerald-400'></div>
 <div class='p-7'>
@@ -128,7 +165,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+me+interesa+el+Polarizado+a+domicilio.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 
-<!-- CARD 2: Alarmas -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd2'>
 <div class='h-1.5 bg-gradient-to-r from-green-500 to-emerald-400'></div>
 <div class='p-7'>
@@ -144,7 +180,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+quiero+consultar+sobre+Alarmas+y+Bloqueos.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 
-<!-- CARD 3: CCTV -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd3'>
 <div class='h-1.5 bg-gradient-to-r from-green-500 to-emerald-400'></div>
 <div class='p-7'>
@@ -159,7 +194,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+necesito+asesoramiento+sobre+CCTV.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 
-<!-- CARD 4: Audio -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd1'>
 <div class='h-1.5 bg-gradient-to-r from-emerald-500 to-green-300'></div>
 <div class='p-7'>
@@ -172,7 +206,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+busco+equipamiento+de+Audio.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 
-<!-- CARD 5: LED -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd2'>
 <div class='h-1.5 bg-gradient-to-r from-emerald-500 to-green-300'></div>
 <div class='p-7'>
@@ -185,7 +218,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+consulto+sobre+iluminacion+LED.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 
-<!-- CARD 6: Accesorios -->
 <div class='scard glass rounded-2xl border border-white/8 overflow-hidden reveal rd3'>
 <div class='h-1.5 bg-gradient-to-r from-emerald-500 to-green-300'></div>
 <div class='p-7'>
@@ -198,7 +230,6 @@ body>*{position:relative;z-index:1}
 <a href='https://wa.me/595984785878?text=Hola%2C+me+interesan+accesorios+para+mi+vehiculo.' target='_blank' rel='noopener' class='wabtn'>
 <svg width='16' height='16' viewBox='0 0 24 24' fill='currentColor'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg>Consultar / Cotizar</a></div></div>
 </div></div></section>
-<!-- MARCAS -->
 <section id='marcas' class='py-16 relative overflow-hidden'>
 <div class='absolute inset-0' style='background:linear-gradient(180deg,transparent 0%,rgba(34,197,94,.03) 50%,transparent 100%)'></div>
 <div class='absolute left-0 top-0 bottom-0 w-24 z-10 pointer-events-none' style='background:linear-gradient(to right,#0A0E17,transparent)'></div>
@@ -223,7 +254,6 @@ body>*{position:relative;z-index:1}
 <span class='brand'>KOJIMA</span><span class='text-gray-700 select-none mx-4'>·</span>
 </div></div></section>
 
-<!-- FAQ -->
 <section class='py-24 px-4 sm:px-6 lg:px-8'>
 <div class='max-w-3xl mx-auto'>
 <div class='text-center mb-14 reveal'><span class='sline mb-4 block mx-auto'></span>
@@ -242,7 +272,6 @@ body>*{position:relative;z-index:1}
 <div class='faq-body'><p class='px-6 pb-6 text-gray-400 text-sm leading-relaxed'>Aceptamos efectivo en guaranies y transferencias bancarias. Para consultas adicionales, escribinos por <a href='https://wa.me/595984785878' class='text-green-400 hover:underline font-medium'>WhatsApp al +595 984 785 878</a>.</p></div></div>
 </div></div></section>
 
-<!-- CONTACTO -->
 <section id='contacto' class='py-24 px-4 sm:px-6 lg:px-8 relative overflow-hidden'>
 <div class='absolute inset-0 pointer-events-none overflow-hidden'><div class='absolute -bottom-32 left-1/2 -translate-x-1/2 w-96 h-96 rounded-full opacity-10' style='background:radial-gradient(ellipse,#22C55E 0%,transparent 70%);filter:blur(60px)'></div></div>
 <div class='max-w-5xl mx-auto'>
@@ -263,9 +292,24 @@ body>*{position:relative;z-index:1}
 <div><p class='text-gray-500 text-xs uppercase tracking-wider mb-0.5'>Horario</p><p class='text-white font-semibold text-sm'>Lunes a Sabado</p><p class='text-gray-400 text-sm'>07:00 a 19:00 hs</p></div></div>
 <div class='flex items-start gap-4'><div class='w-11 h-11 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center shrink-0'><svg class='w-5 h-5' fill='#22C55E' viewBox='0 0 24 24'><path d='M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z'/></svg></div>
 <div><p class='text-gray-500 text-xs uppercase tracking-wider mb-0.5'>Facebook</p><a href='https://www.facebook.com/p/Aguilar-equipamientos-100027866447909/' target='_blank' rel='noopener' class='text-white font-semibold text-sm hover:text-green-400 transition-colors'>Aguilar Equipamientos</a></div></div>
+
+<div class='flex items-start gap-4'><div class='w-11 h-11 rounded-xl bg-green-500/10 border border-green-500/20 flex items-center justify-center shrink-0'><svg class='w-5 h-5' fill='none' stroke='#22C55E' stroke-width='1.8' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z'/></svg></div>
+<div>
+  <p class='text-gray-500 text-xs uppercase tracking-wider mb-0.5'>Correo Electrónico</p>
+  <a target="_blank" rel="noopener noreferrer" href='https://mail.google.com/mail/?view=cm&fs=1&to=aguilarequipamientos10@gmail.com' class='text-white font-semibold hover:text-green-400 transition-colors'>contacto@aguilarequipamientos.com</a>
+</div>
+</div> <div class='pt-2'>
+<p class='text-gray-500 text-xs uppercase tracking-wider mb-2'>Nuestra Ubicación</p>
+<div class='rounded-2xl overflow-hidden border border-white/8'>
+<iframe src='https://www.google.com/maps?q=Av.+San+Jos%C3%A9+casi+San+Blas,+Limpio,+Paraguay&output=embed' width='100%' height='220' style='border:0' allowfullscreen='' loading='lazy' referrerpolicy='no-referrer-when-downgrade' title='Ubicación Aguilar Equipamientos'></iframe>
+</div></div>
+
+<div class='pt-2'>
+<a href='https://docs.google.com/forms/d/1ObxIvA5fQAvd8rbJlh1p5V2iGmEPXbdVYmaUYCLxYfI/edit' target='_blank' rel='noopener' class='wabtn'>
+<svg class='w-4 h-4' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round' viewBox='0 0 24 24'><path d='M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z'/></svg>
+Formulario de Consultas</a></div>
 </div></div></div></div></section>
 
-<!-- FOOTER -->
 <footer class='border-t border-white/5 py-10 px-4 sm:px-6 lg:px-8'>
 <div class='max-w-7xl mx-auto'>
 <div class='grid grid-cols-1 md:grid-cols-3 gap-8 mb-8'>
@@ -288,11 +332,11 @@ body>*{position:relative;z-index:1}
 <li class='flex items-center gap-2'><svg class='w-4 h-4 shrink-0' fill='#22C55E' viewBox='0 0 24 24'><path d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347z'/><path d='M12 0C5.374 0 0 5.373 0 12c0 2.117.554 4.106 1.523 5.83L.057 23.99l6.304-1.654A11.946 11.946 0 0012 24c6.626 0 12-5.373 12-12S18.626 0 12 0zm0 21.818a9.818 9.818 0 01-5.006-1.37l-.359-.213-3.741.98.999-3.648-.234-.374A9.818 9.818 0 012.182 12C2.182 6.57 6.57 2.182 12 2.182S21.818 6.57 21.818 12 17.43 21.818 12 21.818z'/></svg><a href='https://wa.me/595984785878' class='hover:text-green-400 transition-colors'>+595 984 785 878</a></li>
 <li class='flex items-center gap-2'><svg class='w-4 h-4 shrink-0' fill='#22C55E' viewBox='0 0 24 24'><path d='M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z'/></svg><a href='https://www.facebook.com/p/Aguilar-equipamientos-100027866447909/' target='_blank' rel='noopener' class='hover:text-green-400 transition-colors'>Aguilar Equipamientos</a></li>
 </ul></div></div>
-<div class='border-t border-white/5 pt-6 flex flex-col sm:flex-row items-center justify-between gap-3'>
-<p class='text-gray-600 text-xs'>2025 Aguilar Equipamientos. Todos los derechos reservados.</p>
-<p class='text-gray-700 text-xs'>Hecho con amor en Paraguay</p></div></div></footer>
+<div class='border-t border-white/5 pt-6 flex flex-col items-center justify-center gap-2 text-center'>
+<p class='text-gray-500 text-xs'>Hecho Por Luis Miguel Benitez Amarilla, Trabajo de Extensión – Universidad Americana – 2026</p>
+<p class='text-gray-600 text-xs'>Correo del Editor Alumno: luismiguel.benitezamarilla@alumno.ua.edu.py | Funciones: Responsabilidad por el Desarrollo de la Página WEB</p>
+<p class='text-gray-600 text-xs'>Correo del Co Editor Docente: alfred_orue@hotmail.es | Funciones: Solo de Revisión de Forma</p></div></div></footer>
 
-<!-- FLOATING WA -->
 <div class='fixed bottom-6 right-6 z-50'>
 <div class='absolute inset-0 rounded-full'><div class='wa-ring'></div><div class='wa-ring'></div></div>
 <a href='https://wa.me/595984785878?text=Hola%2C+quiero+consultar.' target='_blank' rel='noopener' aria-label='WhatsApp'
